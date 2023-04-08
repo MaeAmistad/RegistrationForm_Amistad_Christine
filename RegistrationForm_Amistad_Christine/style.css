@@ -1,0 +1,59 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #A5D7E8;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.frm{
+    margin: 20px;
+}
+form , .content{
+    width: 800px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.lname input{
+    margin-left: 5px;
+}
+.lname input, .fname input, .mname input {
+    padding: 10px;
+    width: 240px;
+}
+.fname input, .mname input, .addrss input{
+    margin-left: 10px;
+}
+.age input {
+    margin-left: 5px;
+    width: 100px;
+}
+.addrss input{
+    width: 630px
+}
+.lname label, .fname label, .mname label, .age label, .addrss label, .Year label, .Section label {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.studentID label {
+    font-size: 18px;
+    font-weight: 500;
+}
+.studentID input, .lname input, .fname input, .mname input, .age input, .addrss input, .Year input, .Section input {
+    height: 50px;
+}
+.lname, .fname, .mname, .age, .addrss, .Year, .Section {
+    margin-top: 20px;
+}
